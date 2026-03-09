@@ -455,6 +455,42 @@ Modeling is the process of observing the real world, selecting the important inf
 
 ---
 
-## End of Guide
+## SDM Revision Questions (Additional Quiz)
 
-This comprehensive guide covers all questions and answers from the SDM Tutorial materials including SDLC, Structured Methodologies, Agile Methods, Socio-Technical Methodology, Scrum, and Methodology Comparison exercises.
+### Multiple Choice Questions with Answers and Explanations
+
+| Question | Correct Answer | Explanation |
+|----------|----------------|-------------|
+| **Which is the following is characteristics of a good Software Prototype?** | A prototype which shows the main functions as it is | A good prototype demonstrates the core functionality accurately without necessarily including every feature or being error-free |
+| **Which of the below methodology does not fall under the Agile Umbrella?** | Structured System Analysis and Design Method (SSADM) | SSADM is a traditional, structured methodology that follows a sequential approach, unlike agile methodologies which fall under the agile umbrella |
+| **Julie is performing a regular update of Operating Systems (OS) in her server. What type of Maintenance is this?** | Preventive Maintenance | Preventive maintenance involves regular updates and checks to prevent future problems, like OS updates |
+| **What makes RAD, fast?** | Using expert developers | RAD (Rapid Application Development) emphasizes using skilled, expert developers who can work quickly with minimal guidance |
+| **Top-down programming is** | an approach in which the top module is first tested then program modules are added from the highest level to the lowest level | Top-down programming is a testing approach where higher-level modules are tested first, then lower-level modules are progressively integrated |
+| **Which of the following are NOT TRUE about Agile Methodologies?** | Requirements needs to be clear and fixed | Agile methodologies embrace changing requirements and do not require them to be fixed at the start |
+| **In Agile Methods, customer satisfaction can be achieved by:** | Quick delivery of product | Agile focuses on delivering working software quickly and frequently to satisfy customer needs |
+| **In a waterfall model, developer is not encouraged to:** | Go back to previous stage | Waterfall model follows a linear, sequential approach where you cannot go back to previous stages once completed |
+| **A system design tool should primarily help in:** | help analyse both data and activities | System design tools should help analyze both data and activities in the system being designed |
+| **In structured methodologies, documents are prepared at:** | All the above | Structured methodologies require documentation at all stages: Planning, Analysis, and Maintenance |
+| **Agile principles does not include** | Using latest technology | While Agile encourages good practices, using the latest technology is not one of the core 12 Agile principles |
+| **The new system is installed replacing an existing system at one branch of a larger company, one at a time. This method is named as:** | Pilot Operation | Pilot operation involves installing the new system in one branch/department at a time to test it before full rollout |
+| **John is planning to replace his calculator application in his laptop to a new version. What is the best method of system change he can use?** | Direct Cutover | Direct cutover is best for replacing individual applications on a single machine, as it's quick and simple |
+| **Black box testing is when** | Only Input and output are seen | Black box testing examines the system's inputs and outputs without seeing the internal code/process |
+| **Which of the followings is TRUE about CASE (Computer Aided Software Engineering) Tools?** | CASE Tools helps to make the project faster | CASE tools automate various aspects of development, increasing speed and efficiency |
+| **RAD is best for** | Small project | RAD is designed for small projects where speed is critical and requirements can evolve |
+| **Which of the following are TRUE about Structured Methodologies?** | Emphasis on full documentation | Structured methodologies emphasize comprehensive documentation throughout the development process |
+| **Outsource the component development to a specialist vendor is an example of** | Risk transfer | Outsourcing transfers the risk to an external vendor who specializes in that component |
+| **A system analyst designs a new system by** | identifying sub systems and the interfaces between sub systems | System analysts break down systems into subsystems and define how they interact through interfaces |
+| **Which of the following is not part of the systems design?** | Preliminary investigation | Preliminary investigation is part of the earlier planning/analysis phases, not systems design |
+| **What is the main role of a Product Owner in Scrum?** | Representing the customer | The Product Owner represents the customer's voice and is responsible for product decisions |
+| **Which is NOT the job of a Scrum Master?** | Hiring developers | Hiring developers is not a Scrum Master's responsibility; they focus on facilitating the Scrum process |
+| **Which of the below methodology have the 'iterative and incremental' approach in development?** | All stated | RAD, XP, and Scrum all use iterative and incremental development approaches |
+| **Which of the followings is NOT included in the SRS (System Requirements Specification)?** | Problems Definition | SRS includes functional/non-functional requirements, resource lists, and design diagrams, but not problem definitions (which belong to earlier phases) |
+| **White box testing is when** | Only process is seen | White box testing examines the internal code and processes of the system |
+| **Integration testing involves** | Testing two part's connectivity at the same time | Integration testing verifies that different modules or components work together correctly |
+| **Installing an antivirus into a computer is a form of:** | Risk avoidance | Installing antivirus software prevents risks before they occur, which is risk avoidance |
+| **Ali is installing some additional security software to the existing system. What type of Maintenance is this?** | Perfective Maintenance | Perfective maintenance involves adding new features or capabilities to improve the system, like adding security software |
+| **Which of the below best describes 'User Story'?** | The version of requirements from the user | User stories capture requirements from the user's perspective in natural language |
+| **Which of the following appropriately explains the desirable characteristic of good system design?** | Modular approach | Good system design uses a modular approach, breaking the system into manageable, independent modules |
+
+---
+
