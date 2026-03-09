@@ -4,11 +4,11 @@
 1. [SDM Tutorial 1 - SDLC](#sdm-tutorial-1---sdlc)
 2. [SDM Tutorial 2 - Structured Methodologies](#sdm-tutorial-2---structured-methodologies)
 3. [Tutorial 3 - Agile Methods](#tutorial-3---agile-methods)
-4. [Tutorial 5 - Socio Technical Methodology](#tutorial-5---socio-technical-methodology)
-5. [Tutorial 6 - Scrum Methodology](#tutorial-6---scrum-methodology)
-6. [SDM Tutorial 8 - Comparing Methodologies](#sdm-tutorial-8---comparing-methodologies)
-7. [Progress Quiz Questions](#progress-quiz-questions)
-8. [SDM Revision Questions (Additional Quiz)](#sdm-revision-questions-additional-quiz)
+4. [Tutorial 4 - RAD and XP](#tutorial-4---rad-and-xp)
+5. [Tutorial 5 - Socio Technical Methodology](#tutorial-5---socio-technical-methodology)
+6. [Tutorial 6 - Scrum Methodology](#tutorial-6---scrum-methodology)
+7. [SDM Tutorial 8 - Comparing Methodologies](#sdm-tutorial-8---comparing-methodologies)
+8. [Progress Quiz Questions](#progress-quiz-questions)
 
 ---
 
@@ -223,6 +223,89 @@
 | **Working software is the primary measure of progress** | She asks developers to report their progress as "percentage of work completed," which is not an Agile measure. Agile measures progress by completed, working features | Lisa should ask for only essential documents and not the full completed ones. Lisa should ask the developers to focus more on the app's progression instead of the reports |
 | **Simplicity — maximizing the amount of work not done is essential** | Lisa encourages developers to add extra tasks to impress the customer, creating unnecessary work not required by the product | She should encourage the developers to focus on developing the main task instead of additional tasks. By doing so, developers can free up their time and energy to focus on main important tasks rather than unnecessary tasks |
 | **Agile processes promote sustainable development** | She overloads senior developers with more tasks because they "can do better," which is not sustainable and leads to burnout | Lisa should distribute to balance the workload to her team and ensure everyone gets a manageable amount of work to avoid burning out. She can pair the seniors with juniors to encourage their skills development |
+
+---
+
+## Tutorial 4 - RAD and XP
+
+### Question 1: METAGAME Scenario - RAD Application
+
+**Scenario:** METAGAME is a new game developing company that has landed a project to develop a PC-based 'Children's educational game' for a local school. The game is set to have 10 levels which students will attempt progressively. METAGAME has hired a new team of developers who will be attempting this project for the first time. The project starts in January and is expected to be delivered to the school at the end of May (5 months). However, when the project goes into the second month (February), the customer requested that the project be delivered early on March instead of May (3 months). The senior developer has concluded that using RAD (Rapid Application Development) can be applied to solve the issues.
+
+**How RAD can be used to solve the issues:**
+
+| RAD Strategy | Example in METAGAME Project |
+|--------------|-----------------------------|
+| **Hiring experts with relevant experiences** | Hiring freelance game developers who can develop certain game mechanics with speedy deliveries and satisfactory results |
+| **Skip unnecessary steps** | Reduce documentation requirements to focus on development |
+| **Required daily face-to-face communication to obtain timely feedback** | Using online meetings instead of voice chats like WhatsApp when discussing the system with the school |
+| **Use automated tools during testing** | Utilize artificial intelligence for debugging and ensure that the code works as intended |
+| **Limit testing to prioritized requirements and functionality by the clients** | Only test the prioritized functionality by the school such as the system's operation |
+| **Rapid Prototyping: Evolutionary Prototype** | Instead of documenting all 10 levels before coding, the team should immediately build a working prototype of Level 1. This allows the school (customer) to see the educational mechanics in action during February, identifying major design flaws before they propagate to other levels |
+| **Component Reuse** | Since the team is new and time is short, they should avoid building game engines or assets from scratch. They can use existing game engines (e.g., Unity, Godot) and purchase or download pre-made 2D/3D asset packs suitable for a children's game to save weeks of art and coding time |
+| **Timeboxing** | The remaining time until early March should be divided into strict timeboxes (e.g., 1-week sprints). If a specific level or feature isn't finished within its box, it is simplified or moved to a later update, ensuring that the project keeps moving forward to meet the hard deadline |
+| **Joint Application Design (JAD) / User Involvement** | Require a representative from the local school (e.g., a teacher) to work closely with the dev team. They can provide immediate answers to questions about the educational content, preventing delays caused by waiting for feedback or having to redo work that was "educationally incorrect" |
+| **MoSCoW Prioritization (Scope Negotiation)** | The team needs to agree with the customer on what is "Must Have" for March. For example, maybe delivering 5 highly polished levels is acceptable for the early launch, with the remaining 5 added as a patch later. This manages the reality of the shortened timeline |
+
+---
+
+### Question 2: METAGAME Scenario - XP Application
+
+**Scenario:** METAGAME is a new game developing company that has landed a project to develop a PC-based 'Children's educational game' for a local school. The game is set to have 10 levels which students will attempt progressively. METAGAME has hired a new team of developers who will be attempting this project for the first time. The project starts in January and is expected to be delivered to the school at the end of May (5 months). The game involves lots of uncertainties; the development teams are often confused about what is required. The game also involves lots of complex algorithms to be used. The customer (school) insists that the game should not have any errors when delivered. The senior developer has concluded that using XP (Extreme Programming) can be applied to solve the issues.
+
+**How XP can be used to solve the issues:**
+
+| XP Strategy | Example in METAGAME Project |
+|-------------|-----------------------------|
+| **Test-Driven Development (Testing)** | Before creating a specific game level (e.g., Level 1), the team writes an automated test that defines success (e.g., "Student answers 5 questions correctly → Level complete"). The developers then write code only until this test passes. This guarantees the delivered game meets the zero-error standard from the start |
+| **Small Releases (Short Development Cycles)** | Instead of trying to finish all 10 levels by May, the team plans to release 2 levels every month (a small release). This allows the school to verify the progress incrementally. If the team falls behind, they know in Month 1 rather than Month 5, allowing them to adjust the plan early |
+| **Accept changing requirements at any time (weak point)** | Since the METAGAME team is confused and the requirements are uncertain, they might initially design Level 5 to be very hard. If the school plays Level 1 in February and decides the game is too difficult for the students, the team accepts this change immediately. They rewrite the plan for the remaining levels to be easier, ensuring the final game actually fits the students' needs rather than sticking to a "bad" initial plan |
+| **Pair Programming** | METAGAME team can work together to solve difficult parts of programs together where one is the driver and the other will serve as an observer |
+| **Continuous integration** | Whenever any developer completes a small task, they immediately merge the new code into the main codebase and run all TDD tests using automated tools. If a bug is found, the entire team immediately stops what they do and fix the bug first. This ensures that the game code remains runnable throughout the entire 5 months, preventing a large-scale integration failure just before the May delivery |
+| **Pair Negotiation** | The METAGAME should include all parties including developers and stakeholders to negotiate any issues or approvals face to face to increase efficiency |
+| **Stand Up Meeting** | Developer team are required to join to make sure the goals are aligned and to check if the team are facing any roadblocks (extra manpower needed, resources required) |
+| **Hire expert** | Recruit developers that has expertise in the field to improve product delivery times and efficiency |
+| **Simple Design** | Only implement what is currently needed, and do not pre-design features based on future guesses. They start Level 1 with simplest algorithms. Refactoring adds complexity (like adaptive difficulty) only when Level 4 requirements truly need it, preventing new teams from over-designing and wasting time |
+
+---
+
+### Question 3: Explain the process of RAD with example (and diagram) to create the METAGAME project.
+
+**Answer:**
+
+RAD (Rapid Application Development) is a software development methodology that focuses on speed, user involvement, prototyping, and continuous improvement.
+
+Because METAGAME is working with a new team, has 5 months, and must satisfy school feedback, RAD is the perfect model.
+
+**RAD Process for METAGAME Project:**
+
+| Phase | Description | Example in METAGAME Project |
+|-------|-------------|-----------------------------|
+| **Analysis and Quick Design** | The first phase where the developer team and METAGAME need to determine the project's requirements. The requirement should be flexible enough so they can undergo any updates easily. For quick design, users (children or teachers at the local school) will interact with the system analysts of METAGAME and developer teams to give feedback, address shortcomings, clarify features, and assess user-friendliness | The team analyzes what the educational game needs for students, collects initial requirements from teachers about learning objectives, and creates a quick design that can be easily modified based on feedback |
+| **Development** | The developers can start on making the first two levels of the game. It can include only the basic features, simple graphics and gameplay for learning that can reach the objectives or purposes of the game being created. During this stage, the developers can still communicate with the teachers and change the game model according to their needs | The team develops Levels 1 and 2 with basic gameplay mechanics, educational content, and simple graphics. Teachers provide feedback on difficulty and educational value during development |
+| **Demonstration** | The company should have a face-to-face meeting or video call for them to demonstrate their evolutionary prototype of every two levels they had done. After explanation from the company, the users should be able to walk through the prototype by themselves and provide any feedback for the refinement process | The team demonstrates the prototype of Levels 1-2 to school teachers via video call. Teachers try the prototype and provide feedback on educational content, difficulty level, and user interface |
+| **Refinement** | This process is where the company will improve the levels that have been done and finally become a final product that can be published. All the refinement code can be added to the product as well. After all is done, the next levels of the game will continue being developed and demonstrated while showing the previous part that had been refined so the user can keep on giving feedback | The team refines Levels 1-2 based on teacher feedback, improves graphics, adjusts difficulty, and fixes bugs. Then they develop Levels 3-4 and demonstrate them along with the refined Levels 1-2 for continuous feedback |
+| **Testing** | The developers analyze requirements to prepare the test plans early and use the teacher's expectation as the result expectation for checking. They need to ensure that the final output of the software meets the teacher's expectations in the test plan. They should identify what type of testing will be needed such as gameplay testing, usability testing, educational accuracy testing, or bug testing | The team plans tests for analyzing the level of difficulty in progression and the input response with keyboard or mouse. They conduct gameplay testing, usability testing with children, and educational accuracy testing with teachers |
+| **Deployment** | Final testing of the completed software is tested to see if it is suitable for the students to use in school. Next, it requires providing training materials for teachers to guide their students later on how to attempt each level and the basic knowledge on the game's guidelines. Lastly, installing the game package into the school's PCs | The team performs final testing, prepares teacher training materials and user guides, and installs the game on school computers for students to use |
+
+---
+
+### Question 4: Explain the process of XP with example (and diagram) to create the METAGAME project.
+
+**Answer:**
+
+**XP Process for METAGAME Project:**
+
+| Phase/Practice | Description | Example in METAGAME Project |
+|----------------|-------------|-----------------------------|
+| **Release Plan** | Discussing the goals and objectives with the school staff to develop the children's educational game in relation to the betterment of the learning process of the students in the long term, while also collecting the user stories from the teachers and students of the school | The team meets with school staff to discuss long-term learning objectives, collects user stories like "As a student, I want to answer quiz questions to test my knowledge" and "As a teacher, I want to track student progress" |
+| **Iteration Plan** | Initiate the process of breaking down all collected users' stories (students and teachers) into programmable tasks, while also focusing on the users' stories with the highest priority, to establish the scope of an iteration, usually lasting 1 to 2 weeks | The team breaks user stories into tasks like "implement quiz question system," "create student progress tracking," and prioritizes quiz questions for the first 1-2 week iteration |
+| **Acceptance Test Plan** | After each iteration, the school needs to review the game the team has produced. They must have tests being held at school for the teachers to verify its learning outcomes. Then the school must affirm if the iterations uphold the criteria with feedback, if needed some more improvement from the next iteration. Then it will be acceptable for monthly releases | After each iteration, teachers test the game to verify learning outcomes. They provide feedback and approval before accepting the iteration for monthly release |
+| **Daily Stand-up meetings** | Each day the team must hold a short stand-up meeting to make sure the work is synchronized with the whole team. Each member must report during the meeting with completed tasks, planned improvements and the obstacles faced during the programming period. These are important to maintain communication and prevent delays | Every morning, the team meets for 15 minutes. Each member shares: "I completed the quiz question system," "I plan to work on scoring today," and "I'm stuck on the progress tracking feature" |
+| **Pair Negotiation** | Highly collaborative discussion that happens during the Planning Phase (specifically, during Iteration Planning). It's driven by the need for the developers to understand what the project needs, and for the customer to understand the development cost. The negotiation ensures the team's time estimates are based on a shared, precise understanding of the feature, leading to more predictable completion dates for the 10 game levels | During iteration planning, developers and teachers negotiate: "The quiz system with 50 questions will take 3 days," "We need it by Friday for testing," and they agree on scope and timeline |
+| **Unit Test** | This step is where we will ensure the foundational code is correct and error-free. The pair reviews the code they just wrote and simplifies the structure (e.g., changes variable names or removes duplication) without changing the outcome. The test is run again to ensure it still passes | After writing code for the quiz question system, the pair runs unit tests to verify each function works correctly, refactors variable names for clarity, and re-runs tests to ensure everything still passes |
+| **Pair Programming** | One of the core practices of XP where two developers work together at one workstation: Driver who types the code, Navigator who reviews, checks logic, and looks ahead for problems. They switch roles frequently. It produces higher quality code, reduces bugs, encourages knowledge sharing and supports faster problem-solving | Two developers work together: Driver codes the logic for answering quiz questions and implements the scoring function, while Navigator checks if the scoring logic is correct and ensures the code follows game rules such as "10 correct answers needed to pass". After 20-30 minutes, they switch roles |
+| **Coding Standards** | Happens after user stories are selected, pair programming begins and testing ideas are discussed. It is done in small increments, integrated frequently, and improved continuously. It keeps code simple and clean, integrate to the main project often, and replaces complicated solutions with simpler ones (XP simplicity rule) | The developers write small parts of code such as player movement and puzzle object interactions. They integrate immediately to avoid conflicts by pushing the code to the main project several times a day and refactor by simplifying similar codes by creating a reusable puzzle module. They run the game and check if the puzzle responds. If error occurs, they fix the issues immediately |
 
 ---
 
@@ -494,4 +577,3 @@ Modeling is the process of observing the real world, selecting the important inf
 | **Which of the following appropriately explains the desirable characteristic of good system design?** | Modular approach | Good system design uses a modular approach, breaking the system into manageable, independent modules |
 
 ---
-
