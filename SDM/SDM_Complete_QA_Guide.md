@@ -8,7 +8,7 @@
 5. [Tutorial 6 - Scrum Methodology](#tutorial-6---scrum-methodology)
 6. [SDM Tutorial 8 - Comparing Methodologies](#sdm-tutorial-8---comparing-methodologies)
 7. [Progress Quiz Questions](#progress-quiz-questions)
-8. [SDM Revision Questions (Additional Quiz)](#sdm-revision-qestions-(additional-quiz))
+8. [SDM Revision Questions (Additional Quiz)](#sdm-revision-questions-additional-quiz)
 
 ---
 
