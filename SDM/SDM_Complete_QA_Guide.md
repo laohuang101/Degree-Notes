@@ -9,6 +9,7 @@
 6. [Tutorial 6 - Scrum Methodology](#tutorial-6---scrum-methodology)
 7. [SDM Tutorial 8 - Comparing Methodologies](#sdm-tutorial-8---comparing-methodologies)
 8. [Progress Quiz Questions](#progress-quiz-questions)
+9. [Exam Questions](#exam-questions)
 
 ---
 
@@ -575,5 +576,591 @@ Modeling is the process of observing the real world, selecting the important inf
 | **Ali is installing some additional security software to the existing system. What type of Maintenance is this?** | Perfective Maintenance | Perfective maintenance involves adding new features or capabilities to improve the system, like adding security software |
 | **Which of the below best describes 'User Story'?** | The version of requirements from the user | User stories capture requirements from the user's perspective in natural language |
 | **Which of the following appropriately explains the desirable characteristic of good system design?** | Modular approach | Good system design uses a modular approach, breaking the system into manageable, independent modules |
+
+---
+
+## Exam Questions
+
+### Question B1: System Changeover Methods
+
+System changeover is the process of transitioning from the new information system and retiring the old system. Changeover can be rapid or slow depending on the method chosen. When a system is almost completed and ready to be deployed, there are four main types of system changeover methods that can be implemented.
+
+#### 1. Direct Cutover (Big Bang)
+
+**Explanation:**
+Direct Cutover is the most straightforward and rapid changeover method where the old system is completely shut down, and the new system becomes operational immediately on a specific date. This is often referred to as the "Big Bang" approach because all users switch to the new system simultaneously. There is no period where both systems run in parallel.
+
+**Advantages:**
+1. **Cost-Effective:** Only one system needs to be maintained at any given time, reducing operational costs during the transition period. There's no need to pay for running both systems simultaneously.
+2. **Simplicity:** The changeover is clear and definitive. Users don't need to learn or maintain two different systems, and there's no confusion about which system to use. The transition is clean and unambiguous.
+
+**Disadvantages:**
+1. **High Risk:** If the new system has critical bugs or fails to work properly, there's no fallback option. The organization is completely dependent on the new system from day one, which can lead to significant business disruption.
+2. **Limited Recovery Time:** Any problems must be fixed immediately, as there's no old system to fall back on. This puts immense pressure on the development team and can lead to rushed fixes and increased errors.
+
+---
+
+#### 2. Parallel Operation
+
+**Explanation:**
+Parallel Operation involves running both the old and new systems simultaneously for a period of time. During this period, data is entered into both systems, and outputs are compared to ensure the new system is producing correct results. Once confidence is established in the new system, the old system is gradually phased out.
+
+**Advantages:**
+1. **Risk Mitigation:** If the new system fails or produces incorrect results, the old system is still available as a backup. This provides a safety net and reduces the risk of business disruption.
+2. **Validation and Confidence Building:** Running both systems in parallel allows for real-time comparison of outputs, ensuring the new system is accurate and reliable. This builds confidence among stakeholders before full commitment to the new system.
+
+**Disadvantages:**
+1. **High Cost:** Both systems must be maintained and operated simultaneously, doubling the operational costs during the transition period. This includes hardware, software licenses, staff time, and training for both systems.
+2. **Increased Workload:** Staff must enter data into both systems and manage two different workflows simultaneously, leading to potential errors, fatigue, and reduced productivity during the transition period.
+
+---
+
+#### 3. Phased Operation (Phased Implementation)
+
+**Explanation:**
+Phased Operation involves implementing the new system in stages or modules over time. Rather than replacing the entire system at once, specific functions or modules are replaced gradually. The old system continues to handle functions that haven't been migrated yet until all phases are complete.
+
+**Advantages:**
+1. **Manageable Risk:** Problems are isolated to specific modules, making them easier to identify and fix. If one phase fails, it doesn't necessarily affect the entire system, and other phases can continue independently.
+2. **Better Resource Management:** Resources can be focused on one module at a time, allowing for more thorough testing and training. Staff can learn the new system gradually rather than being overwhelmed with everything at once.
+
+**Disadvantages:**
+1. **Extended Timeline:** The complete transition takes longer as each phase must be completed and validated before moving to the next. This can delay the realization of full benefits from the new system.
+2. **Integration Challenges:** Ensuring that the old and new systems work together seamlessly during the transition can be complex. Data synchronization and maintaining consistency between the two systems require careful planning and additional development effort.
+
+---
+
+#### 4. Pilot Operation (Pilot Study)
+
+**Explanation:**
+Pilot Operation involves implementing the new system in one location, department, or organizational unit as a test before rolling it out to the entire organization. The pilot site serves as a learning environment where issues can be identified and resolved before full-scale implementation.
+
+**Advantages:**
+1. **Real-World Testing:** The pilot site provides a realistic testing environment where actual users interact with the system under real conditions. This uncovers practical issues that might not appear in controlled testing environments.
+2. **Learning and Refinement:** Lessons learned from the pilot can be used to improve the system and implementation process before full rollout. This reduces the risk of widespread problems and increases the likelihood of successful adoption.
+
+**Disadvantages:**
+1. **Limited Scope:** Problems specific to other locations or user groups may not be identified during the pilot. Different branches may have unique requirements, workflows, or technical environments that the pilot doesn't address.
+2. **Inconsistent System States:** During the pilot period, different parts of the organization are using different versions of the system, which can create confusion, data inconsistency, and difficulties in reporting and communication.
+
+---
+
+### Question B2: Agile Implementation Strategies
+
+#### Part 1: Strategies for Implementing Agile Approach
+
+An ICT solutions company with over 60 staff, mainly consisting of system developers who have been practicing structured development approaches, has decided to introduce an 'Agile' approach to system development. The System Analyst reports to several senior managers as well, and they are not familiar with the Agile approaches.
+
+##### Strategy 1: Education and Training Program
+
+**Detailed Implementation:**
+The System Analyst should design and implement a comprehensive education and training program to transition the development team from structured methods to Agile methodologies.
+
+**Phase 1 - Awareness Training:**
+- Conduct introductory workshops and seminars explaining the fundamental principles of Agile, including the Agile Manifesto values and principles
+- Compare and contrast structured methodologies (like Waterfall) with Agile approaches, highlighting the key differences in philosophy, process, and mindset
+- Use real-world case studies and examples to demonstrate successful Agile implementations in similar organizations
+- Address common misconceptions and concerns about Agile, such as "no documentation" or "no planning"
+
+**Phase 2 - Technical Training:**
+- Provide hands-on training for specific Agile methodologies relevant to the company's projects (Scrum, XP, Kanban)
+- Train developers on Agile technical practices such as Test-Driven Development (TDD), Pair Programming, Continuous Integration, and Refactoring
+- Conduct workshops on Agile project management tools (Jira, Trello, Azure DevOps) and techniques (User Stories, Sprint Planning, Retrospectives)
+- Establish coding standards and practices that support Agile development
+
+**Phase 3 - Role-Specific Training:**
+- Train developers on their new roles in Agile teams (self-organization, cross-functional collaboration)
+- Provide training for Scrum Masters, Product Owners, and Team Leads on their specific responsibilities
+- Educate senior managers on how to support Agile teams and measure success differently
+- Create Agile champions within the organization who can mentor and support others during the transition
+
+---
+
+##### Strategy 2: Pilot Project Implementation
+
+**Detailed Implementation:**
+Before transitioning all projects to Agile, the System Analyst should select a suitable pilot project to demonstrate the effectiveness of Agile approaches and learn practical lessons for organization-wide implementation.
+
+**Pilot Project Selection Criteria:**
+- Choose a project with moderate complexity that can be completed within 3-6 months
+- Select a project where requirements are likely to evolve or are not fully understood
+- Involve a team that is open to change and willing to learn new approaches
+- Ensure the project has a supportive Product Owner who understands the business domain
+
+**Pilot Project Execution:**
+1. **Team Formation:** Assemble a cross-functional team of 5-9 people with diverse skills (developers, testers, business analysts, designers)
+2. **Scrum Master Selection:** Appoint an experienced Scrum Master (could be external consultant initially) to guide the team
+3. **Sprint Setup:** Establish sprint duration (typically 2 weeks), define roles, and set up Agile tools
+4. **Backlog Creation:** Work with stakeholders to create initial product backlog with user stories
+5. **Sprint Cycles:** Conduct full sprints with all ceremonies (Planning, Daily Stand-ups, Review, Retrospective)
+6. **Continuous Improvement:** Use retrospectives to adapt and improve processes throughout the project
+
+---
+
+##### Strategy 3: Organizational Transformation and Process Adaptation
+
+**Detailed Implementation:**
+Successfully implementing Agile requires more than just training developers; it requires fundamental changes to organizational structure, management practices, and culture.
+
+**Organizational Structure Changes:**
+- Transition from hierarchical management to self-organizing teams
+- Reorganize departments around products or value streams rather than functional silos
+- Establish cross-functional teams that have all skills needed to deliver value
+- Redefine management roles from command-and-control to servant leadership
+
+**Process and Governance Adaptation:**
+- Review and modify organizational policies that conflict with Agile principles (budgeting, procurement, quality assurance)
+- Establish lightweight governance frameworks that enable rather than constrain Agile teams
+- Implement continuous integration and automated testing infrastructure
+- Create collaborative workspaces that support face-to-face communication and teamwork
+
+**Cultural Transformation:**
+- Promote Agile values of collaboration, customer focus, and continuous improvement
+- Encourage experimentation and learning from failure (psychological safety)
+- Recognize and reward team achievements rather than individual performance
+- Foster a culture of transparency, trust, and open communication
+
+---
+
+#### Part 2: Suitable Methodology for Global Insurance Company Project
+
+**Selected Methodology: Scrum**
+
+Scrum methodology is the most suitable system development methodology for the global insurance company project because it fulfills the emphasis on interaction between people, less documentation, and responding to change in the development process.
+
+##### Phases of Scrum Methodology
+
+**Phase 1: Pre-Planning and Preparation**
+Before Scrum begins, high-level planning is conducted to establish the project vision, scope, and initial requirements.
+
+**Phase 2: User Story Creation**
+Scrum begins by creating user stories for the end users to fill in specific features they expect the system to have based on their role in the system. User stories follow the format: "As a [role], I want [feature], so that [benefit]."
+
+**Examples for Insurance Company:**
+- "As a policy holder, I want to view my policy details online, so that I can manage my coverage without visiting a branch"
+- "As an insurance agent, I want to submit claims electronically, so that I can process customer requests more efficiently"
+
+**Phase 3: Acceptance Criteria Definition**
+Developers work with Product Owners and stakeholders to add acceptance criteria for the user stories to convert them into functions in the system.
+
+**Phase 4: Product Backlog Creation**
+The functions are compiled into a product backlog, which is an ordered list of all features, functions, requirements, enhancements, and fixes. All functions are sorted according to priority.
+
+**Phase 5: Sprint Planning Meeting**
+Developers conduct a meeting to decide who will be responsible for developing certain functions and transfer the functions from the product backlog into the sprint backlog.
+
+**Phase 6: Sprint Execution**
+Developers go through cycles called sprints, typically lasting 1-4 weeks, during which they build the functions for the system that are listed on the sprint backlog.
+
+**Phase 7: Sprint Review**
+At the end of each sprint, the team demonstrates the completed work to the Product Owner and other stakeholders. The Product Owner confirms the functions built and provides feedback.
+
+**Phase 8: Sprint Retrospective**
+After every sprint, developers conduct sprint reviews to find ways to improve the efficiency in developing the system.
+
+**Phase 9: System Deployment**
+After all sprints are completed, the system is deployed to production.
+
+**Phase 10: Project Retrospective and Documentation**
+After the system is deployed, a sprint retrospective is conducted for the entire project, and a report is generated, fulfilling the less emphasis on documentation characteristic of Agile.
+
+---
+
+### Question B3: System Analysis Process
+
+#### Part (a): Stages of System Analysis Process
+
+APU's Badminton Club (ABC) has been having problems and complaints with their events and facilities but lacks proper channels to receive these complaints. They have hired you to create a new feedback portal on their local ABC website.
+
+##### Stage 1: Requirement Gathering
+
+**Explanation:**
+Requirement gathering is the foundational stage of system analysis where information about what the system should do is collected from various stakeholders.
+
+**Methods for Requirement Gathering:**
+
+**1. Interviews:**
+Conduct structured or semi-structured interviews with different user groups to understand their specific needs, pain points, and expectations.
+
+**Example Interview Questions:**
+- "What types of complaints do you currently receive most frequently?"
+- "How do you currently handle feedback or complaints?"
+- "What information do you need when responding to a complaint?"
+
+**2. Surveys and Questionnaires:**
+Distribute surveys to a broader audience to collect quantitative data about preferences, usage patterns, and priorities.
+
+**3. Observation:**
+Observe how stakeholders currently interact with existing systems or processes. This reveals workarounds, inefficiencies, and needs that users may not explicitly articulate.
+
+**4. Document Review:**
+Analyze existing documents such as complaint logs, email threads, meeting minutes, and policy documents to understand current processes and identify gaps.
+
+**5. Workshops:**
+Conduct collaborative workshops with mixed groups of stakeholders to brainstorm requirements, prioritize features, and reach consensus on system capabilities.
+
+---
+
+##### Stage 2: Analysis and Prioritization
+
+**Explanation:**
+After gathering requirements, they must be analyzed to ensure they are clear, complete, consistent, and feasible.
+
+**Requirement Analysis Activities:**
+
+**1. Requirement Categorization:**
+Organize requirements into logical categories to ensure comprehensive coverage.
+
+**Categories for ABC Feedback Portal:**
+
+**Functional Requirements:**
+- User registration and authentication
+- Complaint submission form
+- File attachment capability
+- Status tracking for submitted complaints
+- Notification system for updates
+- Reporting and analytics dashboard
+- Admin panel for complaint management
+
+**Non-Functional Requirements:**
+- Performance: System must handle 100 concurrent users
+- Security: User data must be encrypted and access controlled
+- Usability: Interface must be intuitive for all age groups
+- Availability: System must be available 99.5% of the time
+
+**2. Prioritization Using MoSCoW Method:**
+Requirements are prioritized into four categories:
+
+**Must Have (M):**
+- User registration and login
+- Basic complaint submission form
+- Admin panel to view and manage complaints
+- Email notifications for complaint updates
+- Basic reporting functionality
+
+**Should Have (S):**
+- Photo/file attachment capability
+- Status tracking for users
+- Advanced search and filtering for admins
+- SMS notifications for urgent complaints
+
+**Could Have (C):**
+- Mobile app version
+- Social media integration
+- Automated sentiment analysis
+
+**Won't Have (W) - for initial release:**
+- AI-powered complaint categorization
+- Integration with external CRM systems
+
+---
+
+##### Stage 3: System Modeling
+
+**Explanation:**
+System modeling involves creating visual representations of the system to clarify requirements, identify potential issues, and communicate design concepts to stakeholders.
+
+**Types of System Models:**
+
+**1. Use Case Diagrams:**
+Show the interactions between users (actors) and the system functions (use cases).
+
+**Actors:** Student, Staff Member, Parent, Administrator
+
+**Use Cases:**
+- Submit Complaint
+- Attach Evidence
+- Track Complaint Status
+- Update Complaint Status
+- Generate Reports
+- Manage Users
+- Respond to Complaint
+
+**2. Data Flow Diagrams (DFDs):**
+Show how data moves through the system, from input through processing to output.
+
+**Example Flow:**
+```
+User → Authentication → Submit Complaint → Store in Database → Notify Admin → Review → Respond → User Notification
+```
+
+**3. Entity-Relationship (ER) Diagrams:**
+Model the data structure and relationships between different entities in the system.
+
+**Entities:** User, Complaint, ComplaintCategory, ComplaintStatus, Attachment, Response, Department
+
+**4. Activity Diagrams:**
+Show the flow of activities or processes within the system, including decision points and parallel activities.
+
+**Complaint Submission Process:**
+1. Login to Portal
+2. Select Complaint Category
+3. Enter Complaint Details
+4. Attach Photos (optional)
+5. Submit Complaint
+6. Generate Tracking Number
+7. Send Confirmation Email
+8. Store in Database
+9. Notify Admin
+
+---
+
+##### Stage 4: Research and SRS Creation
+
+**Explanation:**
+The final stage involves conducting additional research to ensure requirements are complete, accurate, and aligned with industry best practices.
+
+**Research Activities:**
+
+**1. Technology Research:**
+Investigate available technologies, frameworks, and tools that can support the system requirements.
+
+**2. Competitive Analysis:**
+Research similar systems and competitive solutions to identify best practices, common features, and potential innovations.
+
+**3. Regulatory and Compliance Research:**
+Identify any legal, regulatory, or compliance requirements that the system must meet.
+
+**4. Best Practices Research:**
+Research industry best practices for similar systems to ensure the solution meets professional standards.
+
+**System Requirements Specification (SRS) Document Structure:**
+
+1. **Introduction** - Purpose, scope, definitions
+2. **Overall Description** - Product perspective, functions, user characteristics
+3. **Specific Requirements** - Functional and non-functional requirements
+4. **System Models** - Use case diagrams, DFDs, ER diagrams
+5. **Appendices** - Glossary, supporting information
+
+---
+
+#### Part (b): Data Analysis Techniques
+
+##### Technique 1: Thematic Analysis
+
+**Explanation:**
+Thematic Analysis is a qualitative research method used for identifying, analyzing, and reporting patterns (themes) within data.
+
+**Inputs:**
+- Raw text feedback from complaint submissions
+- Free-form comments and descriptions provided by users
+- Written descriptions of issues and suggestions
+
+**Process:**
+
+**Step 1: Data Familiarization:**
+Read and re-read all the feedback data to become familiar with the content.
+
+**Step 2: Initial Coding:**
+Assign codes to interesting features of the data.
+
+**Example Codes:**
+- "damaged equipment"
+- "poor lighting"
+- "unavailable courts"
+- "rude staff"
+- "booking difficulty"
+
+**Step 3: Searching for Themes:**
+Collate codes into potential themes.
+
+**Example Theme Formation:**
+- Combine "damaged equipment," "poor lighting," and "unavailable courts" under theme: "Facility Maintenance Issues"
+- Combine "rude staff," "booking difficulty," and "unclear rules" under theme: "Service Quality"
+
+**Step 4: Reviewing Themes:**
+Check if the themes work in relation to the coded extracts and the entire data set.
+
+**Step 5: Defining and Naming Themes:**
+Develop a clear definition and name for each theme.
+
+**Theme Definitions:**
+
+**Theme 1: Infrastructure and Facilities**
+- Definition: Issues related to physical facilities, equipment, and infrastructure
+- Examples: Damaged court mats, poor lighting, broken equipment
+
+**Theme 2: Service and Staff**
+- Definition: Issues related to staff behavior, service quality, and customer service
+- Examples: Rude staff, unhelpful reception, long wait times
+
+**Theme 3: Operations and Processes**
+- Definition: Issues related to booking processes, scheduling, rules, and procedures
+- Examples: Booking system difficulties, unclear rules, scheduling conflicts
+
+**Outputs:**
+
+**1. Theme Summary Report:**
+```
+Thematic Analysis Report: ABC Badminton Club Feedback
+
+Total Feedback Analyzed: 500 submissions
+
+Theme 1: Infrastructure and Facilities (45%)
+- Damaged court mats: 120 mentions
+- Poor lighting: 65 mentions
+- Broken equipment: 40 mentions
+
+Theme 2: Service and Staff (30%)
+- Rude/unhelpful staff: 85 mentions
+- Long wait times: 45 mentions
+- Poor communication: 20 mentions
+
+Theme 3: Operations and Processes (25%)
+- Booking difficulties: 70 mentions
+- Unclear rules: 35 mentions
+- Scheduling conflicts: 20 mentions
+```
+
+**2. Action Plan:**
+- Immediate repair of damaged court mats (Theme 1)
+- Staff training on customer service (Theme 2)
+- Simplification of booking process (Theme 3)
+
+---
+
+##### Technique 2: Descriptive Analysis
+
+**Explanation:**
+Descriptive Analysis is a quantitative analysis method that involves summarizing and describing the main features of a dataset.
+
+**Inputs:**
+- Numerical ratings from feedback forms (e.g., satisfaction scores 1-5)
+- Categorical data (e.g., complaint types, user types, time periods)
+- Frequency counts (e.g., number of complaints per category)
+- Time-stamped data for temporal analysis
+
+**Process:**
+
+**Step 1: Data Preparation:**
+Clean and organize the data for analysis.
+
+**Step 2: Measures of Central Tendency:**
+Calculate the average (mean), middle value (median), and most common value (mode).
+
+**Example Calculations:**
+```
+Satisfaction Ratings (1-5 scale):
+- Mean: 3.2 (average satisfaction)
+- Median: 3.0 (middle value)
+- Mode: 3 (most common rating)
+```
+
+**Step 3: Measures of Dispersion:**
+Calculate how spread out the data is using range, variance, and standard deviation.
+
+**Step 4: Frequency Distribution:**
+Count how often each value or category appears in the dataset.
+
+**Example Frequency Table:**
+```
+Satisfaction Rating Distribution:
+1 (Very Dissatisfied): 50 (10%)
+2 (Dissatisfied): 75 (15%)
+3 (Neutral): 150 (30%)
+4 (Satisfied): 125 (25%)
+5 (Very Satisfied): 100 (20%)
+Total: 500 (100%)
+```
+
+**Step 5: Cross-Tabulation:**
+Analyze relationships between two or more variables.
+
+**Example Cross-Tabulation:**
+```
+Satisfaction by User Type:
+                    Rating 1  Rating 2  Rating 3  Rating 4  Rating 5  Average
+Students (n=200)     30        40        60        40        30        2.8
+Staff (n=150)        10        20        40        50        30        3.4
+Parents (n=150)      10        15        50        35        40        3.5
+```
+
+**Outputs:**
+
+**1. Statistical Summary Report:**
+```
+Descriptive Analysis Report: ABC Feedback Portal
+Data Period: January - May 2026
+Total Submissions: 500
+
+Key Statistics:
+- Average Satisfaction Rating: 3.2/5
+- Median Rating: 3.0
+- Most Common Rating: 3 (30% of submissions)
+
+Complaint Distribution:
+- Infrastructure: 225 (45%)
+- Service: 150 (30%)
+- Operations: 125 (25%)
+
+Trend Analysis:
+- Complaints increasing by 67% from January to May
+- Peak complaint month: May (75 complaints)
+- Average complaints per month: 60
+```
+
+**2. Visualizations:**
+Charts and graphs to visually represent the data.
+
+---
+
+### Question 4: Prototyping and Test Plan
+
+#### Part 1: Benefits of a Prototype
+
+A prototype is an early sample, model, or release of a product built to test a concept or process.
+
+| Benefit | Explanation |
+|---------|-------------|
+| **Helps Users Visualize System Functionality** | Prototypes provide a tangible representation of the system that users can see, touch, and interact with. This helps users understand what the system will look like and how it will work. |
+| **Improves Communication Between Developers and Stakeholders** | Prototypes serve as a common language between technical and non-technical stakeholders, reducing misunderstandings and misinterpretations. |
+| **Clarifies System Requirements Before Full Development** | Through prototype review and feedback, ambiguities and inconsistencies in requirements can be identified and resolved early. |
+| **Saves Cost and Time in the Long-Term Process** | Changes made to a prototype are much less expensive than changes made to a fully implemented system. |
+| **Increases User Involvement and Feedback** | Prototypes actively engage users in the development process, leading to higher user satisfaction and better adoption rates. |
+| **Allows Testing of Core System Functions** | Prototypes enable early testing of critical functionality, user workflows, and interface design. |
+| **Serves as a Promotional and Communication Tool** | Prototypes can be used to demonstrate the system to stakeholders, secure funding, and build excitement about the project. |
+| **Facilitates Training and Documentation** | Prototypes can be used as training materials and help create user documentation. |
+| **Reduces Development Risks** | By validating assumptions and testing ideas early, prototypes reduce the technical and business risks. |
+| **Accelerates Time to Market** | Prototyping can actually speed up development by providing a clear roadmap for implementation and reducing rework. |
+
+---
+
+#### Part 2: Test Plan for Hotel Booking System
+
+##### Test Plan Overview
+
+| Aspect | Details |
+|--------|---------|
+| **System Under Test** | Hotel Booking System |
+| **Test Scope** | FIND ROOM function and PAYMENT function |
+| **Test Approach** | Functional testing, validation testing, integration testing |
+| **Test Environment** | Staging environment mirroring production |
+| **Test Duration** | 2 weeks |
+| **Test Team** | QA testers, developers, business analysts |
+
+##### FIND ROOM Test Cases
+
+| Test ID | Test Type | Test Scenario | Test Data | Expected Result | Status | Remark/Rework |
+|---------|-----------|---------------|-----------|-----------------|--------|---------------|
+| FR01 | Functional testing | Search with valid date and room type | Date: 25/2/2026<br>Room type: Deluxe | System display room type available on 25/2/2026 | Pass/Fail | - |
+| FR02 | Validation/failing testing | Search with invalid date | Check in on 25/2/2026, check out on 20/2/2026 | System output invalid date selection | Pass/Fail | - |
+| FR03 | Validation testing | Search without entering date | Empty date field | System output please select a date | Pass/Fail | - |
+| FR04 | Functional testing | Search when no room available | Fully booked date | System output no room available now | Pass/Fail | - |
+| FR05 | Validation testing | Search with check-in date in the past | Check-in: 01/01/2025 | System displays error: "Check-in date cannot be in the past" | Pass/Fail | - |
+| FR06 | Functional testing | Search for extended stay (30+ days) | Check-in: 01/03/2026<br>Check-out: 01/04/2026 | System applies long-stay discount, displays correct pricing | Pass/Fail | - |
+| FR07 | Functional testing | Search for multiple room types simultaneously | Check-in: 10/03/2026<br>Check-out: 15/03/2026 | System displays availability and pricing for all selected room types | Pass/Fail | - |
+
+##### PAYMENT Test Cases
+
+| Test ID | Test Type | Test Scenario | Test Data | Expected Result | Status | Remark/Rework |
+|---------|-----------|---------------|-----------|-----------------|--------|---------------|
+| PM01 | Functional testing | Complete booking with valid credit card | Card: 4111-1111-1111-1111<br>Expiry: 12/28<br>CVV: 123<br>Amount: $450.00 | Payment processed successfully, booking confirmed, confirmation email sent | Pass/Fail | - |
+| PM02 | Validation/failing testing | Attempt payment with invalid card number | Card: 1234-5678-9012-3456 | System displays error: "Invalid credit card number" | Pass/Fail | - |
+| PM03 | Validation testing | Attempt payment with expired credit card | Expiry: 12/22 | System displays error: "Your credit card has expired" | Pass/Fail | - |
+| PM04 | Error handling testing | Attempt payment with insufficient funds | Test card for insufficient funds | System displays error: "Payment declined. Insufficient funds" | Pass/Fail | - |
+| PM05 | Validation testing | Attempt payment with incorrect CVV | CVV: 999 (incorrect) | System displays error: "Invalid CVV" | Pass/Fail | - |
+| PM06 | Performance testing | Payment processing takes longer than expected | Simulate slow payment gateway response | System displays loading indicator, shows "Processing payment..." message | Pass/Fail | - |
+| PM07 | Functional testing | User cancels payment mid-transaction | User clicks "Cancel" button | System displays confirmation, returns to booking page without charging card | Pass/Fail | - |
+| PM08 | Security testing | Attempt to submit payment twice (double submission) | Click "Pay Now" button twice rapidly | System processes payment only once, prevents duplicate charges | Pass/Fail | - |
 
 ---
