@@ -94,7 +94,7 @@ Always use fully specified static routes (interface + next-hop) in production en
 
 ### 3) Briefly explain the following command. State the reason for deploying the command and discuss its characteristics. (10 Marks)
 
-![Question 1 Exhibit 2](SRE/SREmock/{3E8AB00E-BC82-4FFB-AEBE-23F15F848034}.png)
+![Question 1 Exhibit 2](SREmock/{3E8AB00E-BC82-4FFB-AEBE-23F15F848034}.png)
 
 **Answer:**
 The following command is used to configure the **"Floating Static Route"**.
@@ -929,7 +929,7 @@ For any organization with:
 
 ### 2) Based on exhibit below, answer the following questions.
 
-![Question 2 Exhibit](SRE/SREmock/{0D529092-BE15-4FAB-A985-5BD104AC012C}.png)
+![Question 2 Exhibit](SREmock/{0D529092-BE15-4FAB-A985-5BD104AC012C}.png)
 
 **Problem:**
 The administrator has configured inter-vlan routing but the end devices still cannot ping each other. Identify the problem and write the complete command to solve the issue. (6 Marks)
