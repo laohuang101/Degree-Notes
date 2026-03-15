@@ -4,7 +4,7 @@
 
 ### 1) Identify the main issue in the above configuration and briefly explain the consequence of the configuration. (6 Marks)
 
-![Question 1 Exhibit 1](SRE/SREmock/{3B9BEA9F-97D5-4429-B1FB-DA975FF509D4}.png)
+![Question 1 Exhibit 1](Degree-Notes/blob/main/SRE/SREmock/{3B9BEA9F-97D5-4429-B1FB-DA975FF509D4}.png)
 
 **Answer:**
 The main issue in the above configuration is the **EXIT interface is incorrect** and the consequence of the configuration above is after the static route command is entered, connectivity to the network is still failing.
