@@ -1,83 +1,15 @@
 # Web Applications - Comprehensive Lecture Notes
 
 ## Table of Contents
-1. [Module 0: Module Introduction](#module-0-module-introduction)
-2. [Module 1: HTML5](#module-1-html5)
-3. [Module 2: CSS](#module-2-css)
-4. [Module 3: Introduction to ASP.NET](#module-3-introduction-to-aspnet)
-5. [Module 4: Introduction to ADO.NET](#module-4-introduction-to-adonet)
-6. [Module 5: Website Design Method (WSDM)](#module-5-website-design-method-wsdm)
-7. [Module 6: Web Accessibility](#module-6-web-accessibility)
-8. [Module 7: Servers and Security](#module-7-servers-and-security)
-9. [Module 8: Evaluation of Web Pages](#module-8-evaluation-of-web-pages)
-10. [Module 9: Web HCI and Usability](#module-9-web-hci-and-usability)
-
----
-
-## Module 0: Module Introduction
-
-### Course Overview
-
-| Aspect | Details |
-|--------|---------|
-| **Course Code** | CT050-3-2 |
-| **Course Title** | Web Applications |
-| **Module Credit Value** | 3 |
-| **Total Learning Hours** | Guided: 56 hours (Tutorial: 28h, Lab: 28h) + Independent: 41 hours |
-
-### Course Learning Outcomes (CLOs)
-
-| CLO | Description | Bloom's Level | PLO |
-|-----|-------------|---------------|-----|
-| CLO1 | Explain important concepts and their application in designing and developing web applications | C5 (Evaluating) | PLO2 |
-| CLO2 | Construct a web application connected to a well-designed database using server and client-side scripting based on current web standards | P4 (Analyzing) | PLO3 |
-
-### Course Content
-
-| Topic | Description |
-|-------|-------------|
-| Introduction to Web Development | Overview of web development concepts |
-| Methods for Web Page Design | Design methodologies and approaches |
-| Front-end Development | Client-side technologies and scripting |
-| Back-end Development | Server-side programming |
-| Web Database | Database integration and management |
-| Web HCI and Usability | Human-Computer Interaction principles |
-| Web Servers and Security | Server technologies and security measures |
-| Web Accessibility | Making web pages accessible to all users |
-| Evaluation of Web Pages | Criteria for evaluating web quality |
-
-### Assessment Method
-
-| Component | Weightage |
-|-----------|-----------|
-| Group Assignment | 100% |
-
-### Expected Student Behavior
-
-| Requirement | Details |
-|-------------|---------|
-| Attendance | Compulsory (medical certificates/parent letters required for absences) |
-| Attire | Proper attire required |
-| Language | No speaking of dialects |
-| Punctuality | Three lateness = one absence |
-| Mobile Devices | All phones must be turned off during lectures |
-
-### Reference Materials
-
-| Resource | Author | ISBN |
-|----------|--------|------|
-| Essential ASP.NET Web Forms Development | Robert E. Beasley (2021) | 978-1484257838 |
-| HTML CSS and JavaScript | Hanumanth L. (2021) | 9798488815360 |
-| Learn C# Programming | Marius Bancila et al. (2020) | 978-1789805864 |
-| Programming C# 10 | Ian Griffiths (2020) | 978-1098117818 |
-
-### Outcomes Based Education (OBE)
-
-| Characteristic | Description |
-|----------------|-------------|
-| Focus | What students can actually do after being taught |
-| Expectation | All learners successfully achieve particular level of knowledge and abilities |
-| Philosophy | NOT "What we want to teach" but "What You should learn" |
+1. [Module 1: HTML5](#module-1-html5)
+2. [Module 2: CSS](#module-2-css)
+3. [Module 3: Introduction to ASP.NET](#module-3-introduction-to-aspnet)
+4. [Module 4: Introduction to ADO.NET](#module-4-introduction-to-adonet)
+5. [Module 5: Website Design Method (WSDM)](#module-5-website-design-method-wsdm)
+6. [Module 6: Web Accessibility](#module-6-web-accessibility)
+7. [Module 7: Servers and Security](#module-7-servers-and-security)
+8. [Module 8: Evaluation of Web Pages](#module-8-evaluation-of-web-pages)
+9. [Module 9: Web HCI and Usability](#module-9-web-hci-and-usability)
 
 ---
 
