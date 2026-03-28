@@ -20,21 +20,6 @@
 
 ## Module 1: Overview of Data Structure
 
-### Course Information
-
-| Aspect | Details |
-|--------|---------|
-| **Course Code** | CT077-3-2-DSTR |
-| **Course Title** | Data Structures |
-| **Chapter** | Chapter 1 - Fundamental Concepts |
-
-### Learning Outcomes
-
-At the end of this topic, you should be able to:
-1. Understand the meaning of data structure
-2. Understand the fundamental aspects of an algorithm and its characteristics
-3. Understand the relationship between data, data structures, and algorithms
-
 ### Program Development Life Cycle
 
 | Step | Description |
@@ -175,21 +160,6 @@ An algorithm is:
 ---
 
 ## Module 2: Overview of C++
-
-### Course Information
-
-| Aspect | Details |
-|--------|---------|
-| **Course Code** | CT077-3-2-DSTR |
-| **Course Title** | Data Structures |
-| **Chapter** | Chapter 2 - Fundamental Concept of Programming (Part 1) |
-
-### Learning Outcomes
-
-At the end of this topic, you should be able to:
-1. Understand how to write a simple C++ program and use preprocessor directives
-2. Incorporate both basic and advanced control structures appropriately
-3. Demonstrate understanding of structure design by implementing programs with functions
 
 ### Creating a C++ Program
 
@@ -424,21 +394,6 @@ void increment(int& x) {
 
 ## Module 3: Arrays
 
-### Course Information
-
-| Aspect | Details |
-|--------|---------|
-| **Course Code** | CT077-3-2-DSTR |
-| **Course Title** | Data Structures |
-| **Chapter** | Chapter 3 - Fundamental Concept of Programming (Part 2) |
-
-### Learning Outcomes
-
-At the end of this topic, you should be able to:
-1. Understand how to declare and manipulate data into arrays
-2. Explain the difference between passing parameters by value or by reference
-3. Demonstrate how to pass an array to a function
-
 ### Arrays
 
 | Characteristic | Description |
@@ -590,21 +545,6 @@ void processArray(int arr[], int size) {
 ---
 
 ## Module 4: Class and Struct
-
-### Course Information
-
-| Aspect | Details |
-|--------|---------|
-| **Course Code** | CT077-3-2-DSTR |
-| **Course Title** | Data Structures |
-| **Chapter** | Chapter 4 - Fundamental Concept of Programming (Part 3) |
-
-### Learning Outcomes
-
-At the end of this topic, you should be able to:
-1. Explore how to define classes and member functions, and declare objects
-2. Examine how constructors and destructor of a class work
-3. Understand the concepts between structs, classes, and objects in C++
 
 ### Classes and Objects
 
@@ -808,21 +748,6 @@ struct Employee {
 
 ## Module 5: Pointer
 
-### Course Information
-
-| Aspect | Details |
-|--------|---------|
-| **Course Code** | CT077-3-2-DSTR |
-| **Course Title** | Data Structures |
-| **Chapter** | Chapter 5 - Fundamental Concept of Programming (Part 4) |
-
-### Learning Outcomes
-
-At the end of this topic, you should be able to:
-1. Understand how to declare and manipulate pointer variables
-2. Explore the concept of dynamic allocation in memory
-3. Use the new and delete operators to manipulate dynamic variables
-
 ### Pointers
 
 | Characteristic | Description |
@@ -980,20 +905,6 @@ delete p;          // Only frees second allocation
 ---
 
 ## Module 6: Linked List Part 1
-
-### Course Information
-
-| Aspect | Details |
-|--------|---------|
-| **Course Code** | CT077-3-2-DSTR |
-| **Course Title** | Data Structures |
-| **Chapter** | Chapter 6 - Linked Lists (Part 1) |
-
-### Learning Outcomes
-
-At the end of this topic, you should be able to:
-1. Explain the basic properties of a linked list and its advantages
-2. Implement some of the basic operations on linked lists
 
 ### Linked List vs Array
 
@@ -1154,19 +1065,6 @@ void clear() {
 ---
 
 ## Module 7: Linked List Part 2
-
-### Course Information
-
-| Aspect | Details |
-|--------|---------|
-| **Course Code** | CT077-3-2-DSTR |
-| **Course Title** | Data Structures |
-| **Chapter** | Chapter 7 - Linked Lists (Part 2) |
-
-### Learning Outcomes
-
-At the end of this topic, you should be able to:
-1. Implement some of the basic operations on linked lists
 
 ### Advanced Linked List Operations
 
@@ -1332,22 +1230,6 @@ void insertItemAt(int value, int index) {
 ---
 
 ## Module 8: Linked List Part 3
-
-### Course Information
-
-| Aspect | Details |
-|--------|---------|
-| **Course Code** | CT077-3-2-DSTR |
-| **Course Title** | Data Structures |
-| **Chapter** | Chapter 8 - Linked Lists (Part 3) |
-
-### Learning Outcomes
-
-At the end of this topic, you should be able to:
-1. Improve implementation of some operations on linked lists
-2. Implement reversed traversal using loops and recursion
-3. Understand the concept of Doubly Linked Lists
-4. Understand the concept of Circular Linked Lists
 
 ### Linked List Types
 
@@ -1546,21 +1428,6 @@ public:
 
 ## Module 9: Stacks
 
-### Course Information
-
-| Aspect | Details |
-|--------|---------|
-| **Course Code** | CT077-3-2-DSTR |
-| **Course Title** | Data Structures |
-| **Chapter** | Chapter 9 - Stacks |
-
-### Learning Outcomes
-
-At the end of this topic, you should be able to:
-1. Understand the concept of a stack data structure
-2. Discover applications where stacks are useful
-3. Examine and implement stack operations
-
 ### Stack Definition
 
 | Characteristic | Description |
@@ -1755,22 +1622,6 @@ char pop() {
 ---
 
 ## Module 10: Queues
-
-### Course Information
-
-| Aspect | Details |
-|--------|---------|
-| **Course Code** | CT077-3-2-DSTR |
-| **Course Title** | Data Structures |
-| **Chapter** | Chapter 10 - Queues |
-
-### Learning Outcomes
-
-At the end of this topic, you should be able to:
-1. Understand the concept of a queue data structure
-2. Discover applications where queues are useful
-3. Examine and implement queue operations
-4. Explore how to build a circular queue using Array
 
 ### Queue Definition
 
@@ -1998,22 +1849,6 @@ char deleteQueue() {
 ---
 
 ## Module 11: Trees and Binary Trees
-
-### Course Information
-
-| Aspect | Details |
-|--------|---------|
-| **Course Code** | CT077-3-2-DSTR |
-| **Course Title** | Data Structures |
-| **Chapter** | Chapter 11 - Trees |
-
-### Learning Outcomes
-
-At the end of this topic, you should be able to:
-1. Understand concepts and terminologies related to trees
-2. Discover applications where trees are useful
-3. Examine Binary Trees structure representation
-4. Apply and implement Binary Trees traversal algorithms
 
 ### Tree Definition
 
@@ -2244,21 +2079,6 @@ void levelOrder() {
 
 ## Module 12: Binary Search Trees
 
-### Course Information
-
-| Aspect | Details |
-|--------|---------|
-| **Course Code** | CT077-3-2-DSTR |
-| **Course Title** | Data Structures |
-| **Chapter** | Chapter 12 - Binary Search Trees |
-
-### Learning Outcomes
-
-At the end of this topic, you should be able to:
-1. Understand the concepts of Binary Search Trees
-2. Discover how to organize data in a BST
-3. Apply and implement search and delete operations
-
 ### Binary Search Tree (BST)
 
 | Property | Description |
@@ -2443,21 +2263,6 @@ void delete(int key) {
 
 ## Module 13: Graphs
 
-### Course Information
-
-| Aspect | Details |
-|--------|---------|
-| **Course Code** | CT077-3-2-DSTR |
-| **Course Title** | Data Structures |
-| **Chapter** | Chapter 13 - Graphs |
-
-### Learning Outcomes
-
-At the end of this topic, you should be able to:
-1. Explore different applications utilizing graphs
-2. Understand concepts and terminologies related to graphs
-3. Examine how to represent graphs in memory
-
 ### Graph Definition
 
 | Characteristic | Description |
@@ -2611,22 +2416,6 @@ E = {(1,2), (1,3), (2,3), (2,5), (3,4), (3,5), (4,2), (4,5)}
 ---
 
 ## Module 14: Graph Algorithms
-
-### Course Information
-
-| Aspect | Details |
-|--------|---------|
-| **Course Code** | CT077-3-2-DSTR |
-| **Course Title** | Data Structures |
-| **Chapter** | Chapter 14 - Graph Algorithms |
-
-### Learning Outcomes
-
-At the end of this topic, you should be able to:
-1. Examine and apply graph traversal algorithms
-2. Examine and apply shortest path algorithms
-3. Examine and apply minimal spanning tree algorithms
-4. Examine and apply topological sort algorithm in directed acyclic graph
 
 ### Graph Traversal Algorithms
 
